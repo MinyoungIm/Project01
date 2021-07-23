@@ -4,9 +4,7 @@
     height: 50px;
     background-color: pink;
     display: flex;
-}
-.header div {
-    flex: 1 1 0;
+    justify-content: space-between;
 }
 .menu-btn {
     background-color: black;
@@ -31,4 +29,30 @@
     padding-top: 15px;
     cursor: pointer;
     margin-left: 5%;
+}
+
+
+/* container */
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    background-color: aqua;
+}
+
+/* slide */
+.slide-wrap {
+    padding: 5% 0;
+    background-color: bisque;
+}
+.main-slidewrap{
+    width: 100%;
+    height: auto;
+}
+.main-slide {
+    width: 230px;
+    height: 300px;
+    float: left;
+    background-color: gray;
 }
