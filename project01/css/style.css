@@ -46,13 +46,3 @@
     padding: 5% 0;
     background-color: bisque;
 }
-.main-slidewrap{
-    width: 100%;
-    height: auto;
-}
-.main-slide {
-    width: 230px;
-    height: 300px;
-    float: left;
-    background-color: gray;
-}
