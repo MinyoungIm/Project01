@@ -42,11 +42,13 @@
 }
 
 /* slide */
+
+/* main slide */
 .slide-wrap {
     padding: 5% 0;
     background-color: bisque;
 }
-.slick-slide {
+.main-slide .slick-slide {
     background-color: #ccc;
     border-radius: 15px;
     margin: 0 10px;
@@ -57,7 +59,7 @@
     padding: 15% 10%;
 }
 
-/* slide 내부 text */
+/* main slide 내부 text */
 .slide span{
     display: block;
     text-align: left;
@@ -66,4 +68,35 @@
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 10%;
+}
+
+/* deal slide */
+.eatdeal-tit {
+    padding: 5% ;
+    margin-top: 5%;
+}
+.eatdeal>div{
+    width: auto;
+    height: 200px;
+    background-color: #ccc;
+}
+.dealimg {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+/* 중간 add */
+.addbar {
+    width: 100%;
+    height: 100px;
+    margin: 5% 0;
+    background-color: beige;
+}
+.add {
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: aquamarine;
 }
