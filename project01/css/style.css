@@ -46,3 +46,24 @@
     padding: 5% 0;
     background-color: bisque;
 }
+.slick-slide {
+    background-color: #ccc;
+    border-radius: 15px;
+    margin: 0 10px;
+    width: 220px;
+}
+.slide {
+    display: block;
+    padding: 15% 10%;
+}
+
+/* slide 내부 text */
+.slide span{
+    display: block;
+    text-align: left;
+}
+.slide-tit {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
